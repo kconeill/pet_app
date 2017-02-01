@@ -22,7 +22,7 @@
 
 // Navbar
 
-.navbar {
+.navbar, .banner {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4e391+7,61c419+53,b4e391+100;Green+3D */
   background: rgb(180,227,145); /* Old browsers */
   background: -moz-linear-gradient(left,  rgba(180,227,145,1) 7%, rgba(97,196,25,1) 53%, rgba(180,227,145,1) 100%); /* FF3.6-15 */
@@ -51,8 +51,15 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Gochi Hand', cursive;
 }
 
+// Home Page
 
+.banner {
+  color: white;
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
