@@ -1,0 +1,13 @@
+Users:
+* PetParent
+    * Profile: Name, contact info, pet, about pet (add another pet?), rating
+* PetSitter
+    * Profile: Name, contact info, preferred pets, about self, rating
+        * if vet ?
+* both?
+    * Profile: Name, contact info, pet, about pet, preferred pets, about self, rating as parents, rating as sitter
+
+Options:
+    * Free: Name, pet/preferred pet, about pet/self, can search in your area?
+    * Pay: Contact info (can send message?), ratings, map?
+    * Vet pay: can be listed as nearest vet (for emergencies)
