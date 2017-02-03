@@ -3,9 +3,8 @@ Users:
     * Profile: Name, contact info, pet, about pet (add another pet?), rating
 * PetSitter
     * Profile: Name, contact info, preferred pets, about self, rating
-        * if vet ?
-* both?
-    * Profile: Name, contact info, pet, about pet, preferred pets, about self, rating as parents, rating as sitter
+* PetVet
+    * Profile: Name, contact info, accepted pets/services, about self, rating
 
 Options:
     * Free: Name, pet/preferred pet, about pet/self, can search in your area?
