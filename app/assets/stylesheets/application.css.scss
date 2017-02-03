@@ -55,7 +55,30 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Gochi Hand', cursive;
 }
 
-// Home Page
+// Application
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.min-height {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 45px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+
+
+//Home Page
 
 .banner-home {
   color: white;
@@ -67,21 +90,6 @@ h1, h2, h3, h4, h5, h6 {
 .description-home {
   padding-top: 20px;
   text-align: center;
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 25px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-body {
-  padding-top: 70px;
-  padding-bottom: 45px;
 }
 
 //About Us
