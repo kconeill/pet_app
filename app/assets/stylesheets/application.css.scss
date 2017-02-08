@@ -92,12 +92,25 @@ html, body {
   text-align: center;
 }
 
-//About Us
+//About Us & Contact Us
 
-.about-banner {
+.blue-header-text {
   color: DarkSlateBlue;
 }
 
 .testimonial-author {
   font-style: italic;
+}
+
+.well {
+    background: #e0ffe0;
+    border-color: #dcefdc;
+}
+
+.form-group {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-us-btn {
+  font-family: 'Montserrat', sans-serif;
 }
