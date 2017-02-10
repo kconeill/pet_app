@@ -45,6 +45,48 @@
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+  &:hover, &:focus {
+    background-color: #ccffcc;
+  }
+}
+
+.navbar-default .navbar-nav > .open > a {
+  &:hover, &:focus {
+  background-color: #ccffcc;
+  color: black;
+  }
+}
+
+.dropdown-menu {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default .navbar-nav > .open > a {
+  color: black;
+  background-color: white;
+  &:hover, &:focus {
+    background: #e0ffe0
+  }
+}
+
+.navbar-default .navbar-nav > .open > a
+
+.dropdown-menu > li > a {
+  &:hover, &:focus {
+    background: #e0ffe0
+  }
+}
+
+.dropdown-menu .divider {
+  margin: 0;
+}
+
 // Fonts
 
 p {
