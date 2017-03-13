@@ -156,4 +156,12 @@ html, body {
 .flash-container {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  position: absolute;
+  top: 15px;
+  z-index: 1;
+  width: 100%;
+}
+
+.alert {
+  padding-top: 0px;
 }
