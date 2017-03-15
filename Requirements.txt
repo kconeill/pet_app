@@ -7,6 +7,6 @@ Users:
     * Profile: Name, contact info, accepted pets/services, about self, rating
 
 Options:
-    * Free: Name, pet/preferred pet, about pet/self, can search in your area?
-    * Pay: Contact info (can send message?), ratings, map?
+    * Free (basic): Name, pet/preferred pet, about pet/self, can search in your area?
+    * Pay (full): Contact info (can send message?), ratings, map?
     * Vet pay: can be listed as nearest vet (for emergencies)
