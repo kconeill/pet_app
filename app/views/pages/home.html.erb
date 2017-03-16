@@ -3,10 +3,35 @@
   <h1>Find the best match for <%= ["Spot", "Fido", "Princess", "Rover", "Fluffy", "Tibbles"].sample %>.</h1>
 </div>
 
+<br>
+<br>
+
 <div class="container description-home">
   <div class="row">
     <p>PetSitter is an online community connecting PetSitters and PetParents. 
     Here you can find a reliable, responsible sitter for your pet, or advertise 
     your sitter services.  Sign up today!</p>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="text-center blue-header-text">Basic Membership</h2>
+      <div class="well text-center">
+        <p>Sign up for free and get basic access to the community.</p><br>
+        <%= link_to "Sign up with Basic", new_user_registration_path(plan: @basic_plan.id), class: 'center btn btn-default btn-med contact-us-btn' %>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h2 class="text-center blue-header-text">Full Membership</h2>
+      <div class="well text-center">
+        <p>Sign up for full membership for $10/month and get access to the community and contact information!</p>
+        <%= link_to "Sign up with Full", new_user_registration_path(plan: @full_plan.id), class: 'btn btn-default btn-med contact-us-btn' %>
+      </div>
+    </div>
   </div>
 </div>
